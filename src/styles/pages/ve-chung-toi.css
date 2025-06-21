@@ -1,0 +1,22 @@
+.box-vct-1 {
+  box-shadow: -16px 16px 0px 0px #cfe6fd;
+}
+
+.box-vct-2 {
+  box-shadow: -16px 16px 0px 0px #cfe6fd;
+}
+.box-vct-3 {
+  box-shadow: -16px 16px 0px 0px #cfe6fd;
+}
+@media screen and (max-width: 768px) {
+  .box-vct-1 {
+    box-shadow: none;
+  }
+
+  .box-vct-2 {
+    box-shadow: none;
+  }
+  .box-vct-3 {
+    box-shadow: none;
+  }
+}

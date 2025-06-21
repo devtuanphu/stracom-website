@@ -1,0 +1,11 @@
+:where(.css-dev-only-do-not-override-17seli4).ant-pagination
+  .ant-pagination-item-active
+  a {
+  background-color: #3b559e;
+  color: #fff !important;
+  border-radius: 3px !important;
+}
+:where(.css-dev-only-do-not-override-17seli4).ant-pagination
+  .ant-pagination-item-active {
+  border: #3b559e;
+}

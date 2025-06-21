@@ -1,0 +1,18 @@
+export const ENDPOINT = {
+  GET_HOME: `${process.env.URL_API}/api/home`,
+  GET_SANPHAM: `${process.env.URL_API}/api/san-pham`,
+  GET_DICHVU: `${process.env.URL_API}/api/dich-vu`,
+  GET_FOOTER: `${process.env.URL_API}/api/footer`,
+  GET_DOITAC: `${process.env.URL_API}/api/doi-tac`,
+  GET_VECHUNGTOI: `${process.env.URL_API}/api/ve-chung-toi`,
+  GET_BAIVIET: `${process.env.URL_API}/api/bai-viets`,
+  GET_DANHMUC: `${process.env.URL_API}/api/danh-mucs`,
+  GET_DANHMUCCON: `${process.env.URL_API}/api/danh-muc-cons`,
+  GET_DUAN: `${process.env.URL_API}/api/du-an`,
+  GET_TTND: `${process.env.URL_API}/api/thong-tu-nghi-dinh`,
+  GET_CTTV: `${process.env.URL_API}/api/cong-ty-thanh-vien`,
+  GET_CHILDDUAN: `${process.env.URL_API}/api/child-page-du-ans`,
+  GET_CHILDTTND: `${process.env.URL_API}/api/child-page-thong-tu-nghi-dinhs`,
+  GET_HEADER: `${process.env.URL_API}/api/custom-`,
+  GET_MENU_SANPHAM: `${process.env.URL_API}/api/custom-san-pham`,
+};

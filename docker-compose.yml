@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      URL_API: https://nts.demo-amit.com
+      DEV_TOKEN: 2d657f1a4333acd5bb3b7f886b772f4411b36c61b0588738a177faf66c0ad58f1abb4ae2c5170fffccddbf3d7cd316f9d2df9fe286535e52890fb7c9189fef56e07f1d3e9e26c453ec6cf648f3da4d01c015611a8b47fd760cbb9de7e90fb30d7468f2106192481263db136be1d922a51db06995f14d85f661bd02c9fcdb40e6
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped

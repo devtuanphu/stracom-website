@@ -1,0 +1,77 @@
+{
+  "home": {
+    "see_more": "See more",
+    "see_all": "See all",
+    "let_see": "Read details",
+    "read_now": "Read now",
+    "member_company": "Member company",
+    "introduce_about_us": "Introduce About Us",
+    "visit_our_website": "Visit our website",
+    "about_us": "About us",
+    "project": "Project",
+    "our_project": "Our Projects "
+  },
+  "contact_end": {
+    "introduce": "Start your project now",
+    "contact_us": "Contact us",
+    "call_now": "Call Now"
+  },
+  "menu": {
+    "newsTitle": "News",
+    "products": "Products",
+    "services": "Services",
+    "projects": "Projects",
+    "partners": "Partners",
+    "member_company": "Member company",
+    "expertopinion": "Expert Corner",
+    "about_us": "About Us",
+    "news": "News",
+    "circular_decree": "Circular - Decree"
+  },
+  "detail_post": {
+    "title_post": "Related Articles",
+    "go_to_news_page": "Go to news page",
+    "read_now": "Read now",
+    "news": "News",
+    "search": "Enter search keywords",
+    "nodata_news": "No matching articles found",
+    "features_article": "Featured Articles",
+    "load_more_news": "Load more",
+    "lastest_news": "Recently"
+  },
+  "professionalist": {
+    "title": "Expert Corner",
+    "expertopinion": "Expert Corner",
+    "q&a": "Q&A",
+    "sub_title": "We are a team of professionals",
+    "description": "We are a team of professionals who are passionate about what we do. We are a team of professionals who are passionate about what we do. We are a team of professionals who are passionate about what we do. We are a team of professionals who are passionate about what we do."
+  },
+  "partner": {
+    "title": "Strategic cooperation",
+    "sub_title": "Affiliate Partners"
+  },
+  "member": {
+    "title": "Accompany us",
+    "sub_title": "Member Companies"
+  },
+  "footer": {
+    "licence": "Certificate of Business Registration No. 0312218474, first registered on 03/04/2013, at the Department of Planning and Investment of Ho Chi Minh City.",
+    "followUs": "Follow us on",
+    "NTS_company": "NTS Engineering Company",
+    "services": "Services",
+    "products": "Products"
+  },
+  "aboutUs": {
+    "contractors": "General Contractors",
+    "investors": "Foreign Investors",
+    "partners": "Foreign Partners",
+    "corporations": "Companies and Corporations"
+  },
+  "404": {
+    "404": "404",
+    "not_found": "Oops! That page can’t be found",
+    "maybe_delete": "The page you are looking for does exist or may be deleted",
+    "back_home": "Back to home page",
+    "no_article": "There are no articles in this category yet"
+  }
+}

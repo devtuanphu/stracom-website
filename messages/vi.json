@@ -1,0 +1,78 @@
+{
+  "home": {
+    "see_more": "Xem thêm",
+    "see_all": "Xem tất cả",
+    "let_see": "Xem chi tiết",
+    "read_now": "Đọc ngay",
+    "member_company": "Các Công Ty Thành Viên",
+    "introduce_about_us": "Giới Thiệu Về Chúng Tôi",
+    "visit_our_website": "Truy cập trang web",
+    "about_us": "Về Chúng Tôi",
+    "project": "Dự án",
+    "our_project": "Công Trình Đã Thực Hiện"
+  },
+  "contact_end": {
+    "introduce": "Khởi đầu dự án của bạn ngay thôi",
+    "contact_us": "Liên hệ với chúng tôi",
+    "call_now": "Gọi ngay"
+  },
+  "menu": {
+    "newsTitle": "Tin tức",
+    "products": "Sản phẩm",
+    "services": "Dịch vụ",
+    "projects": "Dự án",
+    "member_company": "Công ty thành viên",
+    "expertopinion": "Góc chuyên gia",
+    "partners": "Đối tác",
+    "about_us": "Về chúng tôi",
+    "news": "Tin tức",
+    "circular_decree": "Thông tư - Nghị định"
+  },
+  "detail_post": {
+    "title_post": "Bài viết liên quan",
+    "read_now": "Đọc ngay",
+    "news": "Tất cả tin tức",
+    "go_to_news_page": "Tới trang tin tức",
+    "search": "Nhập từ khóa tìm kiếm",
+    "features_article": "Tin nổi bật",
+    "nodata_news": "Không có bài viết phù hợp",
+    "load_more_news": "Tải thêm",
+    "lastest_news": "Tin mới lên",
+    "lastest_news_tag": "Tin mới lên"
+  },
+  "professionalist": {
+    "title": "Góc chuyên gia",
+    "expertopinion": "Góc chuyên gia",
+    "q&a": "Hỏi và đáp",
+    "sub_title": "Các chuyên gia của chúng tôi",
+    "description": "There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+  },
+  "partner": {
+    "title": "Hợp tác chiến lược",
+    "sub_title": "ĐỐI TÁC LIÊN KẾT"
+  },
+  "member": {
+    "title": "Đồng hành cùng chúng tôi",
+    "sub_title": "CÁC CÔNG TY THÀNH VIÊN"
+  },
+  "footer": {
+    "licence": "Giấy chứng nhận đăng ký doanh nghiệp số 0312218474, đăng ký lần đầu ngày 03/04/2013, tại Sở KH&ĐT TP.HCM.",
+    "followUs": "Theo dõi chúng tôi trên",
+    "NTS_company": "Công ty Kỹ thuật NTS",
+    "services": "Dịch Vụ",
+    "products": "Sản Phẩm"
+  },
+  "aboutUs": {
+    "contractors": "Các tổng thầu",
+    "investors": "Các chủ đầu tư nước ngoài",
+    "partners": "Các đối tác nước ngoài",
+    "corporations": "Các công ty và tập đoàn"
+  },
+  "404": {
+    "404": "404",
+    "not_found": "Oops! Trang này không thể tìm thấy",
+    "maybe_delete": "Trang bạn đang tìm kiếm không tồn tại hoặc có thể đã bị xóa",
+    "back_home": "Quay lại trang chủ",
+    "no_article": "Chưa có bài viết nào thuộc danh mục này"
+  }
+}
