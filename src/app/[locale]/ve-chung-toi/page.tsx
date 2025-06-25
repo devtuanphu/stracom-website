@@ -219,14 +219,6 @@ const page = async (params: any) => {
     <>
       <div className=" justify-center ">
         <div className="container">
-          <div className="flex justify-center py-[67px]">
-            <Image
-              src="/images/ve-chung-toi/logo-ve-toi.png"
-              alt="Về NTS"
-              width={653}
-              height={97}
-            />
-          </div>
           <div className="flex justify-center pt-[40px] overflow-hidden">
             <div className="max-w-[1000px]">
               <p className="text-[20px] font-medium">
