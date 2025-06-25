@@ -17,7 +17,7 @@ const searchData = {
   populate: ["seo.thumbnail", "danh_muc_bai_viets"].toString(),
 };
 const searchSanPham = {
-  populate: ["main.seo.thumbnail"].toString(),
+  populate: ["main.seo.thumbnail", "main.banner.urlImage"].toString(),
 };
 const searchDataDanhMuc = {
   populate: ["bai_viets.seo", "danh_muc_cons.bai_viets.seo "].toString(),
