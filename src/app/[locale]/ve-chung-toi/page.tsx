@@ -273,7 +273,7 @@ const page = async (params: any) => {
             <div className="max-w-[1000px] pb-[40px]">
               <div className="grid grid-cols-12 gap-4 tablet:gap-8 mobile:gap-4">
                 <div className="laptop:col-span-6 mobile:col-span-12 laptop:min-h-[20px]">
-                  <h4 className="text-[24px] font-bold text-[#3B559E] pb-[6px]">
+                  <h4 className="text-[24px] font-bold text-[#0174bb] pb-[6px]">
                     {t("contractors")}
                   </h4>
                   <ul className="leading-[32px] list-disc pl-[20px]">
@@ -286,7 +286,7 @@ const page = async (params: any) => {
                   </ul>
                 </div>
                 <div className="laptop:col-span-6 mobile:col-span-12 laptop:min-h-[20px]">
-                  <h4 className="text-[24px] font-bold text-[#3B559E] pb-[6px]">
+                  <h4 className="text-[24px] font-bold text-[#0174bb] pb-[6px]">
                     {t("partners")}
                   </h4>
                   <ul className="leading-[32px] list-disc pl-[20px]">
@@ -306,7 +306,7 @@ const page = async (params: any) => {
                   </ul>
                 </div>
                 <div className="laptop:col-span-6 mobile:col-span-12 laptop:min-h-[20px]">
-                  <h4 className="text-[24px] font-bold text-[#3B559E] pb-[6px]">
+                  <h4 className="text-[24px] font-bold text-[#0174bb] pb-[6px]">
                     {t("investors")}
                   </h4>
                   <ul className="leading-[32px] list-disc pl-[20px]">
@@ -319,7 +319,7 @@ const page = async (params: any) => {
                   </ul>
                 </div>
                 <div className="laptop:col-span-6 mobile:col-span-12 laptop:min-h-[20px]">
-                  <h4 className="text-[24px] font-bold text-[#3B559E] pb-[6px]">
+                  <h4 className="text-[24px] font-bold text-[#0174bb] pb-[6px]">
                     {t("corporations")}
                   </h4>
                   <ul className="leading-[32px] list-disc pl-[20px]">
@@ -341,7 +341,6 @@ const page = async (params: any) => {
       </div>
       <div className="container">
         {/* <BoxTinTuc data={tintuc ? tintuc.slice(0, 3) : []} /> */}
-        <ContactEnd />
       </div>
     </>
   );

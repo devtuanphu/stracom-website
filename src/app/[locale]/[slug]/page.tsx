@@ -435,7 +435,7 @@ const Page: React.FC<{ params: any }> = ({ params }) => {
           </div>
         ) : (
           <>
-            <div className="flex h-[500px] bg-[#3B559E] mb-[80px]">
+            <div className="flex h-[500px] bg-[#0174bb] mb-[80px]">
               <div className="w-full h-full flex flex-col justify-center items-center gap-[35px]">
                 <h2 className="text-center text-[#fff] text-[48px] font-bold leading-[130px]">
                   {translate("no_article")}
@@ -521,7 +521,7 @@ const Page: React.FC<{ params: any }> = ({ params }) => {
                   </h2>
                   <Link
                     href={`/${locale}/tin-tuc`}
-                    className="text-center text-[#3B559E] text-base font-medium leading-normal inline-flex  items-center gap-2.5"
+                    className="text-center text-[#0174bb] text-base font-medium leading-normal inline-flex  items-center gap-2.5"
                   >
                     {t("go_to_news_page")}
                     <IconArrowRight width={20} height={20} />
@@ -535,7 +535,7 @@ const Page: React.FC<{ params: any }> = ({ params }) => {
           isHaveData === false && (
             <>
               <div className="">
-                <div className="flex laptop:h-[800px] mobile:h-[500px] bg-[#3B559E] mb-[80px]">
+                <div className="flex laptop:h-[800px] mobile:h-[500px] bg-[#0174bb] mb-[80px]">
                   <div className="w-full h-full flex flex-col justify-center items-center gap-[35px]">
                     <h2 className="text-center text-[#fff] text-[100px] font-bold leading-[130px]">
                       {translate("404")}

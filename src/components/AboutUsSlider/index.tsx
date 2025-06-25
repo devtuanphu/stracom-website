@@ -92,11 +92,13 @@ const AboutUsSlider: React.FC<AboutUsSliderProps> = ({
             },
           }}
           modules={[Navigation]}
-          className="about-us-slider">
+          className="about-us-slider"
+        >
           {data?.map((item, index) => (
             <SwiperSlide
               className={` background-about-${index} min-h-[398px] max-h-[436px] min-w-[330px] w-[330px] max-w-[330px] relative`}
-              key={index}>
+              key={index}
+            >
               <div className="overflow-hidden tablet:h-[437px] ">
                 {/* <Image src={sp.src} alt="alt" layout="fill" /> */}
                 <div className="p-[32px] h-full">
@@ -117,7 +119,8 @@ const AboutUsSlider: React.FC<AboutUsSliderProps> = ({
                   <div className="mobile:mt-[16px] tablet:mt-[44px]">
                     <Link
                       href={item.url ? item.url : "/"}
-                      className="btn-more py-[12px] px-[24px] text-[#28A645]  bg-[#fff] rounded-[50px] border border-[#fff]  hover:bg-[#E8FBF6] hover:border-[#28A645] ">
+                      className="btn-more py-[12px] px-[24px] text-[#28A645]  bg-[#fff] rounded-[50px] border border-[#fff]  hover:bg-[#E8FBF6] hover:border-[#28A645] "
+                    >
                       {t("see_more")}
                     </Link>
                   </div>
@@ -129,10 +132,10 @@ const AboutUsSlider: React.FC<AboutUsSliderProps> = ({
       )}
 
       <div className="controll-block mobile:flex laptop:hidden justify-center gap-6 mt-4 ">
-        <div className="slider-prev text-[#3B559E]">
+        <div className="slider-prev text-[#0174bb]">
           <IconCircleArrowLeft />
         </div>
-        <div className="slider-next text-[#3B559E]">
+        <div className="slider-next text-[#0174bb]">
           <IconCircleArrowRight />
         </div>
       </div>

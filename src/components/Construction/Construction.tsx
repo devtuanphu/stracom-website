@@ -75,7 +75,8 @@ const Construction = async (locale: any) => {
               return (
                 <div
                   key={key}
-                  className="flex mobile:flex-col tablet:flex-row items-stretch">
+                  className="flex mobile:flex-col tablet:flex-row items-stretch"
+                >
                   <div className="relative  mobile:pb-[84.85%]  tablet:pb-0 tablet:min-w-[268px] desktop:min-w-[312px] tablet:h-[280px]">
                     <Image
                       src={
@@ -104,8 +105,9 @@ const Construction = async (locale: any) => {
                           href={
                             item.attributes.slug ? item.attributes.slug : "/"
                           }
-                          className="flex items-center ">
-                          <span className="text-[#3B559E] font-medium mr-[10px]">
+                          className="flex items-center "
+                        >
+                          <span className="text-[#0174bb] font-medium mr-[10px]">
                             {t("read_now")}
                           </span>
                           <Image
@@ -141,8 +143,9 @@ const Construction = async (locale: any) => {
                     </p>
                     <Link
                       href={item.attributes.slug || "/"}
-                      className="flex items-center ">
-                      <span className="text-[#3B559E] font-medium mr-[10px]">
+                      className="flex items-center "
+                    >
+                      <span className="text-[#0174bb] font-medium mr-[10px]">
                         {t("read_now")}
                       </span>
                       <svg
@@ -150,10 +153,11 @@ const Construction = async (locale: any) => {
                         width="20"
                         height="21"
                         viewBox="0 0 20 21"
-                        fill="none">
+                        fill="none"
+                      >
                         <path
                           d="M18 9.69189L11.5312 3.12939C11.25 2.84814 10.8125 2.84814 10.5312 3.12939C10.25 3.41064 10.25 3.84814 10.5312 4.12939L15.7812 9.47314H2.5C2.125 9.47314 1.8125 9.78564 1.8125 10.1606C1.8125 10.5356 2.125 10.8794 2.5 10.8794H15.8437L10.5312 16.2856C10.25 16.5669 10.25 17.0044 10.5312 17.2856C10.6562 17.4106 10.8437 17.4731 11.0312 17.4731C11.2187 17.4731 11.4062 17.4106 11.5312 17.2544L18 10.6919C18.2812 10.4106 18.2812 9.97314 18 9.69189Z"
-                          fill="#3B559E"
+                          fill="#0174bb"
                         />
                       </svg>
                     </Link>
@@ -182,8 +186,9 @@ const Construction = async (locale: any) => {
                     </p>
                     <Link
                       href={item.attributes.slug || "/"}
-                      className="flex items-center ">
-                      <span className="text-[#3B559E] font-medium mr-[10px]">
+                      className="flex items-center "
+                    >
+                      <span className="text-[#0174bb] font-medium mr-[10px]">
                         {t("read_now")}
                       </span>
                       <svg
@@ -191,10 +196,11 @@ const Construction = async (locale: any) => {
                         width="20"
                         height="21"
                         viewBox="0 0 20 21"
-                        fill="none">
+                        fill="none"
+                      >
                         <path
                           d="M18 9.69189L11.5312 3.12939C11.25 2.84814 10.8125 2.84814 10.5312 3.12939C10.25 3.41064 10.25 3.84814 10.5312 4.12939L15.7812 9.47314H2.5C2.125 9.47314 1.8125 9.78564 1.8125 10.1606C1.8125 10.5356 2.125 10.8794 2.5 10.8794H15.8437L10.5312 16.2856C10.25 16.5669 10.25 17.0044 10.5312 17.2856C10.6562 17.4106 10.8437 17.4731 11.0312 17.4731C11.2187 17.4731 11.4062 17.4106 11.5312 17.2544L18 10.6919C18.2812 10.4106 18.2812 9.97314 18 9.69189Z"
-                          fill="#3B559E"
+                          fill="#0174bb"
                         />
                       </svg>
                     </Link>

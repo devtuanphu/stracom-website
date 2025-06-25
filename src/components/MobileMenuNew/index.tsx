@@ -272,10 +272,10 @@ const MobileMenuNew = ({
                   onOpenChange={(keys) => onSubOpenChange(item.key, keys)}
                 >
                   {item.key === "Về chúng tôi" ? null : (
-                    <Menu.Item className="text-[#3B559E] text-base font-normal leading-relaxed">
+                    <Menu.Item className="text-[#0174bb] text-base font-normal leading-relaxed">
                       <Link
                         href={item.pathname || "/"}
-                        className="!text-[#3B559E] text-base font-normal leading-relaxed px-0"
+                        className="!text-[#0174bb] text-base font-normal leading-relaxed px-0"
                       >
                         {locale === "vi" ? "Đến trang " : "Go to "} {item.name}
                       </Link>
@@ -311,10 +311,10 @@ const MobileMenuNew = ({
                         )}
                         className="!text-base !font-normal !text-[#000] "
                       >
-                        <Menu.Item className="text-[#3B559E] text-base font-normal leading-relaxed">
+                        <Menu.Item className="text-[#0174bb] text-base font-normal leading-relaxed">
                           <Link
                             href={danhMucItem.slug || "/"}
-                            className="!text-[#3B559E] text-base font-normal leading-relaxed"
+                            className="!text-[#0174bb] text-base font-normal leading-relaxed"
                           >
                             {locale === "vi" ? "Đến trang " : "Go to "}{" "}
                             {danhMucItem.name}
@@ -325,7 +325,7 @@ const MobileMenuNew = ({
                           .map((baiVietItem: any) => (
                             <Menu.Item
                               key={baiVietItem.slug}
-                              className="text-[#3B559E] text-base font-normal leading-relaxed"
+                              className="text-[#0174bb] text-base font-normal leading-relaxed"
                             >
                               <Link
                                 href={baiVietItem.slug || "/"}

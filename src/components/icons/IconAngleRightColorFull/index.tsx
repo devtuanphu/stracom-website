@@ -5,7 +5,8 @@ export default function IconAngleRightColorFull() {
       height="18"
       viewBox="0 0 13 18"
       fill="none"
-      xmlns="http://www.w3.org/2000/svg">
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <rect
         width="3.55625"
         height="13.4725"
@@ -18,7 +19,7 @@ export default function IconAngleRightColorFull() {
         height="13.4814"
         rx="1.77695"
         transform="matrix(-0.591344 0.80642 -0.808338 -0.588718 12.999 7.93652)"
-        fill="#3B559E"
+        fill="#0174bb"
       />
     </svg>
   );

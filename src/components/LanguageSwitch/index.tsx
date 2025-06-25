@@ -123,7 +123,7 @@ const LanguageSwitch: React.FC = () => {
         placement="bottom"
         className="hidden laptop:flex"
       >
-        <Space className="text-[#3B559E] max-h-[40px] my-auto font-medium py-2 px-4 rounded flex  items-center cursor-pointer">
+        <Space className="text-[#0174bb] max-h-[40px] my-auto font-medium py-2 px-4 rounded flex  items-center cursor-pointer">
           <span>{locale.toUpperCase()}</span>
           <IconGlobe />
         </Space>

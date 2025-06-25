@@ -255,7 +255,7 @@ const page = async (params: any) => {
             </h2>
             <Link
               href={`/${locale}/tin-tuc`}
-              className="text-center text-[#3B559E] text-base font-medium leading-normal inline-flex gap-2.5 hover:text-[#28A645] transition-all ease-linear"
+              className="text-center text-[#0174bb] text-base font-medium leading-normal inline-flex gap-2.5 hover:text-[#28A645] transition-all ease-linear"
             >
               {t("go_to_news_page")} <IconArrowRight width={20} height={20} />
             </Link>
@@ -263,9 +263,7 @@ const page = async (params: any) => {
           <BoxTinTuc data={tintuc.slice(0, 3)} locale={locale} />
         </div>
       </div>
-      <div className="container">
-        <ContactEnd />
-      </div>
+      <div className="container"></div>
     </div>
   );
 };

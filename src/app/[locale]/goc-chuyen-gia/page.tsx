@@ -321,7 +321,8 @@ const Page: React.FC = (params: any) => {
                   }}
                   onSlideChange={(swiper) => {
                     setCurrentIndex(swiper.realIndex);
-                  }}>
+                  }}
+                >
                   {dataChuyenGia &&
                     dataChuyenGia.attributes?.listChuyenGia?.map(
                       (item, key) => {
@@ -339,7 +340,7 @@ const Page: React.FC = (params: any) => {
                                 layout="responsive"
                               />
                               <div className="desktop:px-[32px] laptop:px-[8px] mobile:px-[16px] py-[16px] bg-[#F5F3FF] text-center absolute mobile:top-[70%] tablet:top-[70%] laptop:top-[63%] desktop:top-[230px] left-1/2 transform -translate-x-1/2 w-max min-w-[140px] desktop:max-w-[263px] laptop:max-w-[234px] ">
-                                <h2 className="text-[#3B559E] font-semibold line-clamp-1">
+                                <h2 className="text-[#0174bb] font-semibold line-clamp-1">
                                   {item.name}
                                 </h2>
                                 <span className="text-[12px] text-[#637381] line-clamp-2">
@@ -404,7 +405,7 @@ const Page: React.FC = (params: any) => {
                     <div className="tablet:col-span-6 mobile:col-span-12">
                       <div className="flex flex-col gap-[16px]">
                         <div className="w-fit h-8 px-2 py-1 bg-indigo-50 rounded-md justify-start items-center gap-2 inline-flex">
-                          <div className="text-[#3B559E] text-base font-normal leading-normal">
+                          <div className="text-[#0174bb] text-base font-normal leading-normal">
                             {item.attributes.createdAt
                               ? formatTimeBadge(item.attributes.createdAt)
                               : t("lastest_news_tag")}
@@ -412,7 +413,8 @@ const Page: React.FC = (params: any) => {
                         </div>
                         <h3
                           className="laptop:text-[20px] tablet:text-[16px] mobile:text-[18px] laptop:text-[#374151] mobile:text-black font-[500] line-clamp-2"
-                          title={item.attributes.title}>
+                          title={item.attributes.title}
+                        >
                           {item.attributes.title}
                         </h3>
                         <p className="laptop:text-[18px] tablet:text-[13px] mobile:text-[16px] text-[#8899A8] line-clamp-3">
@@ -425,7 +427,8 @@ const Page: React.FC = (params: any) => {
                                 ? `/${item.attributes.slug}`
                                 : "/"
                             }
-                            className="text-[#3B559E] px-[24px] py-[8px] rounded-[50px] btn-view">
+                            className="text-[#0174bb] px-[24px] py-[8px] rounded-[50px] btn-view"
+                          >
                             {text("read_now")}
                           </Link>
                         </div>
@@ -466,10 +469,10 @@ const Page: React.FC = (params: any) => {
               onChange={(e: any) => setSearchValue(e.target.value)}
               placeholder={translate("search")}
             />
-            <button className="w-[56px] h-[56px] bg-[#3B559E] mx-0 flex justify-center items-center rounded-[50px] absolute right-[2%] top-[10px] mobile:hidden laptop:flex">
+            <button className="w-[56px] h-[56px] bg-[#0174bb] mx-0 flex justify-center items-center rounded-[50px] absolute right-[2%] top-[10px] mobile:hidden laptop:flex">
               <IconSearch width="30" height="30" />
             </button>
-            <button className="w-[32px] h-[32px] bg-[#3B559E] mx-0 flex justify-center items-center rounded-[50px] absolute right-[0px] mobile:top-[0px] tablet:top-[10px] laptop:top-0 mobile:flex laptop:hidden">
+            <button className="w-[32px] h-[32px] bg-[#0174bb] mx-0 flex justify-center items-center rounded-[50px] absolute right-[0px] mobile:top-[0px] tablet:top-[10px] laptop:top-0 mobile:flex laptop:hidden">
               <IconSearch width="14" height="14" />
             </button>
           </div>
@@ -487,15 +490,17 @@ const Page: React.FC = (params: any) => {
                       }
                       className={`${
                         filterDanhMuc === item?.attributes?.name
-                          ? `bg-[#3B559E] border-[#3B559E]`
-                          : `bg-[#fff] border  border-[#3B559E]`
-                      } py-[8px] px-[10px] flex items-center rounded-[24px] border w-fit`}>
+                          ? `bg-[#0174bb] border-[#0174bb]`
+                          : `bg-[#fff] border  border-[#0174bb]`
+                      } py-[8px] px-[10px] flex items-center rounded-[24px] border w-fit`}
+                    >
                       <span
                         className={`text-12px font-medium text-nowrap  ${
                           filterDanhMuc === item?.attributes?.name
                             ? `text-[#fff]`
-                            : `text-[#3B559E] `
-                        }`}>
+                            : `text-[#0174bb] `
+                        }`}
+                      >
                         {item?.attributes?.name}
                       </span>
                     </button>
@@ -519,8 +524,9 @@ const Page: React.FC = (params: any) => {
 
         <div className="py-[40px] flex justify-center">
           <button
-            className="py-[16px] px-[24px] bg-[#3B559E] border border-[#3B559E] text-[#fff] font-medium rounded-[50px]"
-            onClick={loadMoreArticles}>
+            className="py-[16px] px-[24px] bg-[#0174bb] border border-[#0174bb] text-[#fff] font-medium rounded-[50px]"
+            onClick={loadMoreArticles}
+          >
             {translate("load_more_news")}
           </button>
         </div>

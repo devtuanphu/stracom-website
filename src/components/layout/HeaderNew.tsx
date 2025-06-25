@@ -314,7 +314,7 @@ const HeaderNew = (params: any) => {
                     >
                       <div
                         className={`font-inter text-base font-medium leading-6 hover:text-[#28A645] ${
-                          isActive ? "text-[#28A645]" : "text-[#3B559E]"
+                          isActive ? "text-[#28A645]" : "text-[#0174bb]"
                         } text-left flex items-center gap-3 cursor-pointer 
                     ${activeKey === item.key ? "text-[#28A645]" : ""}`}
                       >

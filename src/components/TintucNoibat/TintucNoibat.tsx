@@ -67,7 +67,7 @@ const TintucNoibat: React.FC<TintucNoibatProps> = ({ name, data }) => {
                 <p className="tablet:my-[24px] mobile:my-4 desktop:text-[24px] laptop:text-[20px] mobile:text-base tablet:text-[#8899A8] laptop:leading-[38.4px] mobile:text-black line-clamp-5">
                   {item.seo.description}
                 </p>
-                <button className="text-[#fff] bg-[#3B559E] px-[24px] py-[12px] flex items-center rounded-[50px] absolute bottom-1">
+                <button className="text-[#fff] bg-[#0174bb] px-[24px] py-[12px] flex items-center rounded-[50px] absolute bottom-1">
                   <Link
                     href={item.slug ? `/${item.slug}` : "/"}
                     className="mr-[10px]"
