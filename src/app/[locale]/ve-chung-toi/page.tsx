@@ -1,11 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import "../../../styles/pages/ve-chung-toi.css";
-import ContactEnd from "@/components/ContactEnd/ContactEnd";
-import imageOne from "../../../../public/images/ve-chung-toi/01.png";
-import imageTwo from "../../../../public/images/ve-chung-toi/02.png";
-import imageThree from "../../../../public/images/ve-chung-toi/03.png";
-import BoxTinTuc from "@/components/BoxTinTuc/BoxTinTuc";
 import { Metadata } from "next";
 import { apiService } from "@/services/api.service";
 import { ENDPOINT } from "@/enums/endpoint.enum";
