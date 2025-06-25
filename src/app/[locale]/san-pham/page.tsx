@@ -96,7 +96,7 @@ async function fetchData(endpoint: string) {
 
 const page = async (params: any) => {
   let locale = params.params.locale;
-
+  const baseUrl = process.env.URL_API;
   const dataTinTuc = await fetchData(
     `${ENDPOINT.GET_BAIVIET}?${searchParams}&locale=${locale}`
   );
@@ -111,6 +111,16 @@ const page = async (params: any) => {
       data: {
         attributes: {
           main: {
+            banner: {
+              urlImage: {
+                data: {
+                  attributes: {
+                    url: string;
+                  };
+                };
+              };
+            };
+            main: any;
             name: string;
             description: string;
           };
@@ -118,59 +128,6 @@ const page = async (params: any) => {
       };
     }
   )?.data?.attributes?.main;
-  // const danhMuc = (
-  //   dataDanhMuc as {
-  //     data: {
-  //       attributes: {
-  //         name: string;
-  //         slug: string;
-  //         description: string;
-  //         danh_muc_cons: {
-  //           data: {
-  //             attributes: {
-  //               name: string;
-  //               slug: string;
-  //               description: string;
-  //               bai_viets: {
-  //                 data: {
-  //                   attributes: {
-  //                     title: string;
-  //                     slug: string;
-  //                     content: string;
-  //                     type: string;
-  //                     bai_viet_tieu_diem: boolean;
-  //                     seo: {
-  //                       title: string;
-  //                       description: string;
-  //                       keyword: string;
-  //                     };
-  //                   };
-  //                 }[];
-  //               };
-  //             };
-  //           }[];
-  //         };
-
-  //         bai_viets: {
-  //           data: {
-  //             attributes: {
-  //               title: string;
-  //               slug: string;
-  //               content: string;
-  //               type: string;
-  //               bai_viet_tieu_diem: boolean;
-  //               seo: {
-  //                 title: string;
-  //                 description: string;
-  //                 keyword: string;
-  //               };
-  //             };
-  //           }[];
-  //         };
-  //       };
-  //     }[];
-  //   }
-  // )?.data;
 
   const baiViet = dataTinTuc as {
     data: {
@@ -212,7 +169,9 @@ const page = async (params: any) => {
     <div>
       <div className="relative w-full h-[18.5%] desktop:min-h-[682px] laptop:min-h-[455px] tablet:min-h-[400px] mobile:min-h-[200px] overflow-hidden">
         <Image
-          src={bannerSanPham || "/"}
+          src={
+            baseUrl + sanPham?.banner?.urlImage?.data?.attributes?.url || "/"
+          }
           alt="banner"
           layout="fill"
           objectFit="cover"
