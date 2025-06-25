@@ -104,7 +104,9 @@ const page = async (params: any) => {
       <div className=" justify-center ">
         <div className="container">
           <div className="flex justify-center pt-[40px] overflow-hidden">
-            <div className="max-w-[1000px]"></div>
+            <div className="max-w-[1000px]">
+              <div dangerouslySetInnerHTML={{ __html: content }}></div>
+            </div>
           </div>
         </div>
       </div>
