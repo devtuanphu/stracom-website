@@ -4,7 +4,7 @@
     "see_all": "Xem tất cả",
     "let_see": "Xem chi tiết",
     "read_now": "Đọc ngay",
-    "member_company": "Các Công Ty Thành Viên",
+    "member_company": "Đối tác bán lẻ",
     "introduce_about_us": "Giới Thiệu Về Chúng Tôi",
     "visit_our_website": "Truy cập trang web",
     "about_us": "Về Chúng Tôi",
@@ -53,7 +53,7 @@
   },
   "member": {
     "title": "Đồng hành cùng chúng tôi",
-    "sub_title": "CÁC CÔNG TY THÀNH VIÊN"
+    "sub_title": "CÁC ĐỐI TÁC BÁN LẺ"
   },
   "footer": {
     "licence": "Giấy chứng nhận đăng ký doanh nghiệp số 0312218474, đăng ký lần đầu ngày 03/04/2013, tại Sở KH&ĐT TP.HCM.",
